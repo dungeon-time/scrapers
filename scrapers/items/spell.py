@@ -1,0 +1,20 @@
+import scrapy
+
+class Spell(scrapy.Item):
+  name = scrapy.Field()
+  level = scrapy.Field()
+  school = scrapy.Field()
+  components = scrapy.Field()
+  cast_time = scrapy.Field()
+  duration = scrapy.Field()
+  spell_range = scrapy.Field()
+  spell_aoe_size = scrapy.Field()
+  spell_shape = scrapy.Field()
+  spell_attack_save = scrapy.Field()
+  spell_damage_effect = scrapy.Field()
+  description = scrapy.Field()
+  tags = scrapy.Field()
+  classes = scrapy.Field()
+  source_book = scrapy.Field()
+  source_book_page = scrapy.Field()
+  alternate_components = scrapy.Field()
